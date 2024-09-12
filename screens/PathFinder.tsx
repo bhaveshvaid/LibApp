@@ -17,7 +17,7 @@ const PathFinder = () => {
       <View style={styles.linkBox}>
         {pathArray.map((item)=>{
             return (
-                <View >
+                <View key={item.title}>
                 <TouchableOpacity onPress={()=>Linking.openURL(item.link)} style={styles.touchBox}>
                     <Text style={styles.links}> -{'>'} {item.title}</Text>
                 </TouchableOpacity>

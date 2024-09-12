@@ -61,7 +61,7 @@ const Account = () => {
                 </View>
                 
                {/* test  */}
-               <AccordionItem title="Currently issued books">
+        <AccordionItem title="Currently issued books">
             <Text style={styles.textSmall}>As soon as the database is connected and the data is loaded the Details of
              currently issued books will be shown in this tab. </Text>
         </AccordionItem>

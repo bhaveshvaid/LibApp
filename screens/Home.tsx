@@ -109,10 +109,10 @@ function MyDrawer() {
        >
       <Drawer.Screen name="Home" component={Main} />
       <Drawer.Screen name="Profile" component={Profile} />
+      <Drawer.Screen name="Services" component={Services} />
       <Drawer.Screen name="Account" component={Account} /> 
       <Drawer.Screen name="Contact" component={Contact} />
       <Drawer.Screen name="All of IR-IIT D" component={Repositories} />
-      <Drawer.Screen name="Services" component={Services} />
       {/* <Drawer.Screen name="SignUp" component={SignUp} /> */}
       {/* <Drawer.Screen name="Profile" component={Profile} /> */}
         </Drawer.Navigator>
